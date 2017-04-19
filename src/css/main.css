@@ -1,0 +1,62 @@
+/*初始化html的字的大小为 62.5 16*62.5 = 10px  然后就可以快速换算了 rem 了 新技能 get */
+html{
+	font-size: 62.5%;
+	color: #222;
+}
+/*字体选中背景色*/
+::selection {
+	background-color: #b3d4fc;
+	box-shadow: none;
+}
+/*工具集*/
+.center-block {
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+}
+.pull-right {
+	float: right !important;
+}
+.pull-left {
+	float: left !important;
+}
+.text-right {
+	text-align: right !important;
+}
+.text-left {
+	text-align: left !important;
+}
+.text-center {
+	text-align: center !important;
+}
+.hide {
+	display: none !important;
+}
+.show {
+	display: block !important;
+}
+.visible{
+	visibility: hidden;
+}
+.text-hide{
+	font : 0/0 a;
+	color: transparent;
+	text-shadow: none;
+	background-color: transparent;
+	border: 0;
+}
+.clearfix:before,
+.clearfix:after {
+   	content: "";
+   	display: table;
+}
+.clearfix:after {
+   	clear: both;
+}
+.clearfix2:after {
+   	clear: both;
+   	content: ' ';
+   	display: block;
+   	visibility: hidden;
+   	height: 0;
+}
