@@ -1,0 +1,9 @@
+<img src="img/xxx.png" alt="" srcset='img/xxx.png 480w,img/xxxx.png 800w,img/xxxxx.png 1600w' sizes='(min-width:800px) 800px, 100vw'>
+
+
+<picture>
+		<source media='(max-width:36em)' srcset='img/xxx.png 768w'/>
+		<source media='(orientation: landscape)' srcset='img/xxx.png 768w'>
+		<source srcset='img/xxx.png 1600w'/>
+		<img src="xxx" alt="xxx" class="xx">
+	</picture>

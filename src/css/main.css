@@ -263,7 +263,7 @@ header .main ul li a:active{
 }
 /*ad*/ 
 .ad{
-	display: none;
+	/*display: none;*/
 }
 .feature{
 	width: 90%;

@@ -8,6 +8,8 @@
 	<title>index</title>
 	<link rel="stylesheet" href="css/normalize.css">
 	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" type="text/css" href="js/vendor/OwlCarousel2-2.2.1/dist/assets/owl.carousel.min.css">
+	<link rel="stylesheet" type="text/css" href="js/vendor/OwlCarousel2-2.2.1/dist/assets/owl.theme.default.css">
 </head>
 <body>
 <!--[if lte IE 8]>
@@ -54,14 +56,28 @@
 			</div>
 		</section>
 		<section class="ad">
-			<div class="item">
-				<img src="img/ad001-m.png" alt="">
-			</div>
-			<div class="item">
-				<img src="img/ad002-m.png" alt="">
-			</div>
-			<div class="item">
-				<img src="img/ad003-m.png" alt="">
+			<div class="owl-carousel owl-theme">
+				<div class="item">
+					<picture>
+						<source srcset='img/ad001-l.png' media='(min-width:50em)'/>
+						<source srcset='img/ad001-m.png' media='(min-width:30em)'/>
+						<img src="img/ad001.png" alt="2015年度报告">
+					</picture>
+				</div>
+				<div class="item">
+					<picture>
+						<source srcset='img/ad002-l.png' media='(min-width:50em)'/>
+						<source srcset='img/ad002-m.png' media='(min-width:30em)'/>
+						<img src="img/ad002.png" alt="新年抽大奖">
+					</picture>
+				</div>
+				<div class="item">
+					<picture>
+						<source srcset='img/ad003-l.png' media='(min-width:50em)'/>
+						<source srcset='img/ad003-m.png' media='(min-width:30em)'/>
+						<img src="img/ad003.png" alt="新手专项红包">
+					</picture>
+				</div>
 			</div>
 		</section>
 		<section class="feature clearfix">
@@ -249,5 +265,10 @@
 		</ul> -->
 		<p>我是哪个的©2017-2018版权信息</p>
 	</footer>
+
+	<script type="text/javascript" src='js/vendor/jquery.min.js'></script>
+	<script type="text/javascript" src='js/vendor/OwlCarousel2-2.2.1/dist/owl.carousel.js'></script>
+	<script type="text/javascript" src='js/vendor/main.js'></script>
+	<script type="text/javascript" src='js/vendor/picture.js'></script>
 </body>
 </html>
